@@ -1,0 +1,16 @@
+@import "variables";
+
+@import "addons/font-icon";
+@import "addons/_font-icon-reset";
+@import "addons/_bootstrap-select";
+
+
+@import "theme/_header";
+
+@import "pages/home";
+
+@import "fold/_list-properties.scss";
+
+*, *:before, *:after{
+    outline: none;
+}
