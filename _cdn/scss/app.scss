@@ -6,11 +6,12 @@
 
 
 @import "theme/_header";
+@import "theme/footer";
 
 @import "pages/home";
 
 @import "fold/_list-properties.scss";
-
+@import "fold/optin";
 *, *:before, *:after{
-    outline: none;
+    outline: none !important;
 }

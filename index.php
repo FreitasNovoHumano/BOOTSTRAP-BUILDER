@@ -66,6 +66,7 @@
         
         <?php
         
+        // fONT CONTROL 
         $getApp = filter_input(INPUT_GET, 'app', FILTER_SANITIZE_SPECIAL_CHARS);
         
         if(empty($getApp)){
@@ -77,6 +78,69 @@
         }
         
         ?>
+        
+        <article class="main_optin bg-black text-white py-5">
+            <div class="container">
+                <div class="row mx-auto" style="max-width: 600px">
+                    <h1>Quer ficar por dentro das novidades</h1>
+                    
+                    <p>Deixe o seu nome e o melhor e-mail nos campos abaixo e nós vamos lhe informar sobre os melhores 
+                        negócios de todos os lançamentos do sul da ilha</p>
+                    
+                    <form action="">
+                        <input type="text" class="form-control" placeholder="Digite seu nome" size="50">
+                        <input type="email" class="form-control" placeholder="Digite seu melhor e-mail" size="50">
+                        <button type="submit" class="btn btn-front text-white">Me avise!</button>
+                    </form>                       
+                </div>
+            </div>
+        </article>
+        
+        <section class="main_footer bg-light" style="background: url(assets/images/footer.png) repeat-x bottom center; background-size: 10%;">
+            <div class="container pt-5" style="padding-bottom: 120px;">
+                <div class="row justify-content-around text-muted"><!-- Around separa entre os elementos e muted deixa em tom de cinza -->
+                    <div class="col-3">
+                        <h1 class="pb-2">Navegue <span class="text-front">Aqui!</span></h1>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#" class="text-front">Destaque</a></li>
+                            <li><a href="#">Alugar</a></li>
+                            <li><a href="#">Comprar</a></li>
+                            <li><a href="#">Contato</a></li>
+                        </ul>                        
+                    </div>
+                    
+                    <div class="col-6">
+                        <h1 class="pb-2">Nos <span class="text-front"> Conheça!</span></h1>
+                        <p>Nossa maior satisfação é lhe ajudar a encontrar seu imóvel dos sonhos nos bairros do sul da 
+                            Ilha da Magia, em Florianópolis</p>                        
+                        
+                         <h1 class="pb-2">Quer <span class="text-front"> Investir?</span></h1>                       
+                        <p>Entre em contato com a nossa equipe e vamos lhe informar sempre sobre os melhores negócios.</p>                       
+                    </div>
+                    
+                    <div class="col-3">
+                        <button class="btn btn-front icon-facebook icon-notext"></button>
+                        <button class="btn btn-front icon-twitter icon-notext"></button>
+                        <button class="btn btn-front icon-instagram icon-notext"></button>
+                        <h1></h1>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        
+        <div class="main_copyright py-3 bg-front text-white text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p class="mb-0">Imobiliária | CRECI 1234 | Avenida Pequeno Principe, 0 Compeche - Florianópolis/SC</p>
+                        <p class="mb-0">Todos os Direitos Reservados - UpInside Treinamentos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <script src="node_modules/jquery/dist/jquery.min.js"></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
