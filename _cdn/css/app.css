@@ -2796,6 +2796,25 @@ select.selectpicker {
   font-size: 0.875em;
 }
 
+.main_footer h1 {
+  font-size: 1.4;
+  border-bottom: 1px solid #CCC;
+}
+.main_footer ul {
+  padding-left: 0;
+}
+.main_footer ul li {
+  list-style: none;
+  margin-bottom: 4px;
+}
+.main_footer ul li a {
+  color: #666;
+}
+
+.main_copyright p {
+  font-size: 0.875em;
+}
+
 .main_slide {
   background-image: url("../..//..//assets/images/front1.JPG");
   background-position: center 65%;
@@ -2835,6 +2854,65 @@ select.selectpicker {
 .main_list_group .main_list_group_items .main_list_group_items_item a div h2 {
   color: #fff;
   font-size: 1.2em;
+}
+
+.main_contact form {
+  padding: 20px;
+  background-color: #FFF;
+  margin: 0 auto;
+  margin-top: 40px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  width: 600px;
+  max-width: calc(100% - 40px);
+}
+.main_contact form h2 {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.main_contact_types h2 {
+  font-size: 1.4em;
+  color: #666;
+}
+.main_contact_types p {
+  font-size: 0.875em;
+}
+
+.main_property h2 {
+  margin: 40px 0px 20px 0px;
+}
+.main_property .main_property_content_price .main_property_content_price_small {
+  margin-bottom: 0px;
+  font-size: 0.8em;
+}
+.main_property .property_contant_structure .property_contant_structure_item {
+  padding: 6px 12px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  background-color: #36BA9B;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid #2d9a81;
+  color: #fff;
+}
+.main_property .main_property_contact {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.main_property .main_property_contact h2 {
+  font-size: 1.2em;
+  padding: 20px;
+  margin: 0px;
+}
+.main_property .main_property_contact form {
+  padding: 20px;
+  background-color: #F9F9F9;
+  border: 1px solid #CCC;
 }
 
 .img-reponsive-16by9 {
@@ -2894,6 +2972,10 @@ select.selectpicker {
 }
 .main_optin form button {
   width: 100%;
+}
+
+.carousel-item img {
+  height: 450px;
 }
 
 *, *:before, *:after {

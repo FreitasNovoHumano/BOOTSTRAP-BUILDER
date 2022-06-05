@@ -9,9 +9,18 @@
 @import "theme/footer";
 
 @import "pages/home";
+@import "pages/_contact";
+@import "pages/_property";
 
-@import "fold/_list-properties.scss";
+@import "fold/_list-properties";
 @import "fold/optin";
+
+.carousel-item{
+    img{
+        height: 450px;
+    }
+}
+
 *, *:before, *:after{
     outline: none !important;
 }
